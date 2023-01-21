@@ -1,0 +1,52 @@
+.blurry {
+ filter: blur(4px);
+}
+
+#header {
+ background-color: #070522;
+ background-image: url(./assets/tech\ bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: type 3s steps(50, end);
+  animation-fill-mode: forwards;
+}
+
+.projLinks a {
+ text-decoration: none;
+ color: aliceblue;
+ justify-content: center;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+
+#myButton {
+  position:fixed;
+  float: right;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  text-decoration: none;
+}
+
