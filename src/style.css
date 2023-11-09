@@ -2,6 +2,11 @@
  filter: blur(4px);
 }
 
+body {
+  box-sizing: border-box;
+}
+
+
 #header {
  background-color: #070522;
  background-image: url(./assets/tech\ bg.jpg);
@@ -48,5 +53,18 @@ a:hover {
   right: 20px;
   z-index: 999;
   text-decoration: none;
+}
+
+.navbar-toggler {
+  position: absolute;
+}
+
+.navbar-collapse {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 0px 20px;
+
 }
 
