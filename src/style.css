@@ -7,16 +7,46 @@ body {
 }
 
 
-#header {
+/* #header {
  background-color: #070522;
  background-image: url(./assets/tech\ bg.jpg);
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 700px;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
+
+
+.hero-content {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+} */
+
+
+#header {
+  background-color: #070522;
+  background-image: url(./assets/tech\ bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center;  */
+  /* Vertically center the contents */
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;
+  text-align: center; /* Center text within the container */
+  margin-top: 20px;
+}
+
+/* Add some additional styles as needed */
+
 
 @keyframes type {
   0% {
@@ -55,16 +85,5 @@ a:hover {
   text-decoration: none;
 }
 
-.navbar-toggler {
-  position: absolute;
-}
 
-.navbar-collapse {
-  position: absolute;
-  top: 100%;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.9);
-  padding: 0px 20px;
-
-}
 
